@@ -12,4 +12,4 @@ var con = mysql.createConnection({
     console.log("Connected!");
   })
 
-  module.exports = mysql;
+  module.exports = con;  
